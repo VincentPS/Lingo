@@ -5,7 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <head>
     <meta charset="utf-8">
     <title>Welcome to CodeIgniter</title>
-    <link href="css/main.css" type="text/css">
+    <?= link_tag("resources/css/main.css") ?>
 </head>
 <body>
 
@@ -32,6 +32,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 </body>
 <footer>
-    <script src="js/main.js" type="text/javascript"></script>
+    <?= script_tag("resources/js/main.js") ?>
 </footer>
 </html>
