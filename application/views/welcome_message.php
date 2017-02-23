@@ -1,22 +1,8 @@
-<?php
-defined('BASEPATH') or exit('No direct script access allowed');
-?><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Welcome to CodeIgniter</title>
-    <?= link_tag("resources/css/main.css") ?>
-</head>
-<body>
-
 <div id="container">
     <h1>Welcome to Lingo!</h1>
 
     <div id="body">
-        <button class="button">Nieuw Spel</button>
-        <p>If you would like to edit this page you'll find it located at:</p>
-        <code>application/views/welcome_message.php</code>
-
+        <button class="w3-btn w3-hover-red">Nieuw Spel</button>
         <p>The corresponding controller for this page is found at:</p>
         <code>application/controllers/Welcome.php</code>
 
@@ -29,9 +15,3 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <?php echo (ENVIRONMENT === 'development') ? 'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?>
     </p>
 </div>
-
-</body>
-<footer>
-    <?= script_tag("resources/js/main.js") ?>
-</footer>
-</html>
